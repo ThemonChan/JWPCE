@@ -1,0 +1,140 @@
+:Title Help for JWPce 1.50
+1 Introduction
+2 Notation Used=IDH_INTRO_NOTATION
+2 What is JWPce?=IDH_INTRO_WHATISJWPCE
+2 Who Should/Should not Consider Using JWPce=IDH_INTRO_WHO
+2 Historical Development=IDH_INTRO_HISTORY
+2 The GNU General Public License=IDH_INTRO_GNU
+2 Disclaimers=IDH_INTRO_DISCLAIMERS
+2 Acknowledgments=IDH_INTRO_ACKNOWLEGEMENTS
+2 Frequently Asked Questions=IDH_INTRO_FAQ
+2 JWPce Features=IDH_INTRO_FEATURES
+2 Copyrights and Trademarks=IDH_INTRO_COPYRIGHTS
+1 Installation
+2 Installation=IDH_INSTALL_INSTALL
+2 What if I already have JWP?=IDH_INSTALL_JWP
+2 Updating JWPce=IDH_INSTALL_UPDATE
+2 Network or Multi-configuration Installation=IDH_INSTALL_NETWORK
+2 International Support=IDH_INSTALL_LANGUAGE
+2 What Should be in the Distribution?=IDH_INSTALL_CONTENTS
+2 More About Installation=IDH_INSTALL_MORE
+2 Advanced Install Dialog=IDH_INSTALL_ADVANCED
+2 How to Disable or Enable the Auto-Install Check=IDH_INSTALL_CHECK
+2 Windows CE=IDH_INSTALL_CE
+2 Removing JWPce=IDH_INSTALL_REMOVE
+1 JWPce Interface
+2 Main Display=IDH_INTERFACE_MAIN
+2 Single-Window Multi-Document=IDH_INTERFACE_SWMD
+2 Pointers and Alt+tap=IDH_INTERFACE_POINTER
+2 Dialog Boxes=IDH_INTERFACE_DIALOG
+2 Help=IDH_INTERFACE_HELP
+2 Japanese Edit Controls=IDH_INTERFACE_JEDIT
+2 Japanese List Controls=IDH_INTERFACE_JLIST
+2 Edit-List Controls=IDH_INTERFACE_EDITLIST
+2 Choose Color Dialog Box (Windows CE)=IDH_INTERFACE_COLOR
+1 Entering Text
+2 Edit Modes=IDH_TEXT_EDITMODES
+2 Input Modes=IDH_TEXT_INPUTMODES
+2 Entering Hiragana=IDH_TEXT_HIRAGANA
+2 Entering Katakana=IDH_TEXT_KATAKANA
+2 Using the JIS Table=IDH_TEXT_JISTABLE
+2 Kana Table=IDH_TEXT_KANATABLE
+2 Explicit Kanji Conversion=IDH_TEXT_EXPLICITKANJI
+2 Inline Kanji Conversion=IDH_TEXT_INLINEKANJI
+2 User Kana to Kanji Conversions=IDH_TEXT_USERKANJI
+2 Working with Microsoft's Global IME=IDH_TEXT_IME
+1 Basic Editing
+2 Moving Around the Document=IDH_EDIT_MOVING
+2 Text Display and Line Width=IDH_EDIT_WIDTH
+2 Formatting Text=IDH_EDIT_FORMAT
+2 Character Placement and the Tab Key=IDH_EDIT_TAB
+2 Formatting Paragraphs=IDH_EDIT_PARAGRAPH
+2 New Paragraphs and Splitting Paragraphs=IDH_EDIT_SPLITTING
+2 Selecting Text=IDH_EDIT_SELECTING
+2 Using the Clipboard=IDH_EDIT_CLIPBOARD
+2 Clipboard Encoding=IDH_EDIT_ENCODING
+2 Undo and Redo=IDH_EDIT_UNDO
+2 Search and Replace=IDH_EDIT_SEARCH
+1 Working with Kanji
+2 Character Information=IDH_KANJI_CHARINFO
+2 Alternate kanjinfo.dat Files=IDH_KANJI_KANJINFO
+2 Finding Kanji=IDH_KANJI_LOOKUP
+2 Working with kanjinfo.dat=IDH_KANJI_KANJINFODAT
+2 Radical Lookup=IDH_KANJI_RADLOOKUP
+2 Bushu Lookup=IDH_KANJI_BUSHULOOKUP
+2 Bushu/Stroke Lookup=IDH_KANJI_BSLOOKUP
+2 SKIP Lookup=IDH_KANJI_SKIPLOOKUP
+2 Hadamitzky/Span Lookup=IDH_KANJI_HSLOOKUP
+2 Four Corners Lookup=IDH_KANJI_FCLOOKUP
+2 Reading Lookup=IDH_KANJI_READLOOKUP
+2 Index Lookup=IDH_KANJI_INDEXLOOKUP
+2 JIS Character Table and Selecting Characters=IDH_KANJI_JISTABLE
+2 Color Kanji=IDH_KANJI_COLORKANJI
+2 Creating and Clearing a Kanji List=IDH_KANJI_KANJILIST
+2 Color-Kanji Options=IDH_KANJI_COLOROPTIONS
+2 Count Kanji=IDH_KANJI_COUNTKANJI
+1 Dictionary
+2 Dictionary Introduction=IDH_DICT_GENERAL
+2 What you can Search for=IDH_DICT_SEARCHFOR
+2 Limiting the Search=IDH_DICT_LIMITS
+2 Searching and Results=IDH_DICT_RESULTS
+2 Dictionary Codes=IDH_DICT_CODES
+2 Advanced Dictionary Searches=IDH_DICT_ADVANCED
+2 User Dictionary=IDH_DICT_USERDICT
+2 Adding or Editing Entries=IDH_DICT_USEREDIT
+2 Adding Entries to EDICT=IDH_DICT_ADDEDICT
+2 Dictionary Options=IDH_DICT_OPTIONS
+2 Dictionaries=IDH_DICT_DICTIONARIES
+2 Adding or Editing Dictionaries=IDH_DICT_ADDDICT
+2 The Classical Japanese Dictionary=IDH_DICT_CLASSICAL
+1 Working with Files
+2 File Types=IDH_FILE_TYPES
+2 What is saved with a JWPce File?=IDH_FILE_CONTENTS
+2 Japanese Encoding Systems=IDH_FILE_ENCODING
+2 Changing the Current File=IDH_FILE_CHANGE
+2 Creating a New File=IDH_FILE_NEW
+2 Opening an Existing File=IDH_FILE_OPEN
+2 Duplicate Files=IDH_FILE_DUPLICATE
+2 Common Difficulties Opening Files=IDH_FILE_PROBLEMS
+2 Opening the Same File Again=IDH_FILE_REVERT
+2 Closing Files=IDH_FILE_CLOSE
+2 The Exit Command=IDH_FILE_EXIT
+2 Saving Files=IDH_FILE_SAVE
+2 Backup Files=IDH_FILE_BACKUP
+2 Temporary Files and System Failures=IDH_FILE_TEMP
+2 Deleting Files=IDH_FILE_DELETE
+2 JFC Files=IDH_FILE_JFC
+2 Working with Projects=IDH_FILE_PROJECT
+1 Printing
+2 Printing=IDH_PRINT_GENERAL
+2 Actually Printing Something=IDH_PRINT_PRINTING
+2 Printing and Color Kanji=IDH_PRINT_COLORKANJI
+2 Page Breaks and Formatting=IDH_PRINT_PAGEBREAK
+2 The Page Layout Dialog Box=IDH_PRINT_LAYOUT
+2 Margins, Vertical Printing, and Paper Orientation=IDH_PRINT_MARGINS
+2 Headers and Footers (Page Numbering)=IDH_PRINT_HEADERS
+2 The Header and Footer Strings=IDH_PRINT_HEADSTRINGS
+2 Header and Footer Example=IDH_PRINT_HEADEXAMPLE
+2 Document Summary=IDH_PRINT_SUMMARY
+2 Date and Time=IDH_PRINT_DATETIME
+2 Advanced Layout Options=IDH_PRINT_ADVANCED
+2 Printing Options and Fonts=IDH_PRINT_OPTIONS
+1 Options and Settings
+2 Introduction=IDH_OPTIONS_INTRO
+2 General Options=IDH_OPTIONS_GENERAL
+2 Display Options=IDH_OPTIONS_DISPLAY
+2 Font/Format Options=IDH_OPTIONS_FONT
+2 File/Clipboard Options=IDH_OPTIONS_FONT
+2 Miscellaneous Options=IDH_OPTIONS_MISC
+2 Advanced Options=IDH_OPTIONS_ADVANCED
+2 Toolbar Customization=IDH_OPTIONS_TOOLBAR
+1 Fonts
+2 Fonts Introduction=IDH_FONTS_INTRO
+2 Installing Additional Fonts=IDH_FONTS_INSTALL
+2 Choosing an ASCII Font=IDH_FONTS_ASCII
+2 Choosing a Japanese Display Font=IDH_FONTS_DISPLAY
+2 Choosing a Japanese Printer Font=IDH_FONTS_PRINTER
+1 Support
+2 Support=IDH_SUPPORT_GENERAL
+2 Dictionary Support=IDH_SUPPORT_DICTIONARY
+2 Future Releases=IDH_SUPPORT_FUTURE

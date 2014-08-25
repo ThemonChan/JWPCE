@@ -1,0 +1,341 @@
+=================
+COPYRIGHT NOTICES
+=================
+
+JWPce Program and Documentation
+===============================
+
+File Names:     All files distributed with the JWPce package with
+                exceptions as stated below.
+
+Copyright (C):  1997-2004, 2005, glenn rosenthal
+
+                JWPce is free software; you can redistribute it 
+                and/or modify it under the terms of the GNU 
+                General Public License as published by the Free 
+                Software Foundation; either version 2 of the 
+                License, or (at your option) any later version.
+
+                This program is distributed in the hope that it 
+                will be useful, but WITHOUT ANY WARRANTY; without 
+                even the implied warranty of MERCHANTABILITY or 
+                FITNESS FOR A PARTICULAR PURPOSE.  See the GNU 
+                General Public License for more details. 
+
+                You should have received a copy of the GNU 
+                General Public License along with this program; 
+                if not, write to the Free Software Foundation, 
+                Inc., 59 Temple Place - Suite 330, Boston, MA  
+                02111-1307, USA.
+
+JWPce Translation Kit
+=====================
+
+Copyright (C):  glenn rosenthal, 2000-2004, 2005.
+
+                JWPce translation kit is free software; you can 
+                redistribute it and/or modify it under the terms 
+                of the GNU General Public License as published 
+                by the Free Software Foundation; either version 
+                2 of the License, or (at your option) any later 
+                version.
+
+                This program is distributed in the hope that it 
+                will be useful, but WITHOUT ANY WARRANTY; without 
+                even the implied warranty of MERCHANTABILITY or 
+                FITNESS FOR A PARTICULAR PURPOSE.  See the GNU 
+                General Public License for more details. 
+
+                You should have received a copy of the GNU 
+                General Public License along with this program; 
+                if not, write to the Free Software Foundation, 
+                Inc., 59 Temple Place - Suite 330, Boston, MA  
+                02111-1307, USA.
+
+JWPce Utilities and Tools
+========================
+
+Copyright (C):  glenn rosenthal, 1997-2004, 2005.
+
+                JWPce tools (jindex, kinfo, rinfo, uinfo, winfo,
+                and update_1.33) are free software; you can 
+                redistribute it and/or modify it under the terms 
+                of the GNU General Public License as published 
+                by the Free Software Foundation; either version 
+                2 of the License, or (at your option) any later 
+                version.
+
+                This program is distributed in the hope that it 
+                will be useful, but WITHOUT ANY WARRANTY; without 
+                even the implied warranty of MERCHANTABILITY or 
+                FITNESS FOR A PARTICULAR PURPOSE.  See the GNU 
+                General Public License for more details. 
+
+                You should have received a copy of the GNU 
+                General Public License along with this program; 
+                if not, write to the Free Software Foundation, 
+                Inc., 59 Temple Place - Suite 330, Boston, MA  
+                02111-1307, USA.
+
+JWP Main Package (JWPce's interface started as a clone of JWP's interface).
+================
+
+File Names:     All files distributed with the JWP package with
+                exceptions as stated below.
+
+Copyright (C):  Stephen Chung, 1995.  All rights reserved.
+
+                No part(s) of JWP may be included in any commercial
+                product, nor may any commercial product include
+                portion(s) derived from part(s) of JWP, without the
+                explicit permission of the respective copyright
+                holder(s).
+
+                Distributed under the GNU General Public License.
+                Please read GNUGPL.TXT for copyright details.
+
+                Whenever a specific copyright notice conflicts with the
+                GNU General Public License, the specific copyright
+                provision(s) will take precedence over the GNU General
+                Public License.
+
+
+WNN Kana-to-Kanji Dictionary
+============================
+
+File Name: WNN.DCT
+
+Copyright Kyoto University Research Institute for Mathematical Sciences
+        1987, 1988, 1989, 1990, 1991
+Copyright OMRON Corporation. 1987, 1988, 1989, 1990, 1991
+Copyright ASTEC, Inc. 1987, 1988, 1989, 1990, 1991
+
+Permission to use, copy, modify, distribute, and sell this software
+and its documentation for any purpose is hereby granted without fee,
+provided that all of the following conditions are satisfied:
+
+1) The above copyright notices appear in all copies
+2) Both those copyright notices and this permission notice appear
+   in supporting documentation
+3) The name of "Wnn" isn't changed unless substantial modifications
+   are made, or
+
+   The following words followed by the above copyright notices appear
+   in all supporting documentation of software based on "Wnn":
+
+     "This software is based on the original version of Wnn developed
+      by Kyoto University Research Institute for Mathematical Sciences
+      (KURIMS), OMRON Corporation and ASTEC Inc."
+
+4) The names KURIMS, OMRON and ASTEC not be used in advertising or
+   publicity pertaining to distribution of the software without
+   specific, written prior permission
+
+KURIMS, OMRON and ASTEC make no representations about the suitability
+of this software for any purpose. It is provided "as is" without
+express or implied warranty.
+
+Wnn consortium is one of distributors of the official Wnn source code
+release. Wnn consortium also makes no representations about the
+suitability of this software for any purpose. It is provided "as is"
+without express or implied warranty.
+
+KURIMS, OMRON, ASTEC AND WNN CONSORTIUM DISCLAIM ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL KURIMS, OMRON, ASTEC OR
+WNN CONSORTIUM BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL
+DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTUOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+
+
+Japanese-English Dictionary
+===========================
+
+File Names: EDICT, EDICT.JDX
+
+Copyright (C) 1994 James William Breen
+
+This license statement and copyright notice  applies  to  the EDICT
+Japanese/English  Dictionary  file,  the  associated documentation file
+EDICT.DOC, and any data files which are derived from them.
+
+COPYING AND DISTRIBUTION
+
+Permission is granted to make and distribute verbatim copies of these
+files provided this copyright notice and permission notice is
+distributed with all copies. Any distribution of the files must take
+place without a financial return, except a charge to cover the cost of
+the distribution medium.
+
+Permission is granted to make and distribute extracts or subsets of the
+EDICT file under the same conditions applying to verbatim copies.
+
+Permission is granted to translate the English elements of the EDICT
+file into other languages, and to make and distribute copies of those
+translations under the same conditions applying to verbatim copies.
+
+USAGE
+
+These files may be freely used by individuals, and may be accessed by
+software belonging to, or operated by, such individuals.
+
+The files, extracts from the files, and translations of the files must
+not be sold as part of any commercial software package,  nor must they
+be incorporated in any published dictionary or other printed document
+without the specific permission of the copyright holder.
+
+COPYRIGHT
+
+Copyright over the documents covered by this statement is held by James
+William BREEN.
+
+
+
+Kanji Information Database
+==========================
+
+File Names: KINFO.DAT, KINFOSTR.IDX, KINFOBSH.IDX
+            (Part of the KANJIDIC package)
+
+This license statement and copyright notice applies to the KANJIDIC
+package, the associated documentation files, and any data files which
+are derived from them.
+
+COPYING AND DISTRIBUTION
+
+Permission is granted to make and distribute verbatim copies of these
+files provided this copyright notice and permission notice is
+distributed with all copies. Any distribution of the files must take
+place without a financial return, except a charge to cover the cost of
+the distribution medium.
+
+Permission is granted to make and distribute extracts or subsets of the
+KANJIDIC package under the same conditions applying to verbatim copies.
+
+Permission is granted to translate the English elements of the KANJIDIC
+package into other languages, and to make and distribute copies of those
+translations under the same conditions applying to verbatim copies.
+
+USAGE
+
+These files may be freely used by individuals and small groups for
+reference and research purposes, and may be accessed by software
+belonging to, or operated by, such individuals and small groups.
+
+The files, extracts from the files, and translations of the files must
+not be sold as part of any commercial software package, nor must they be
+incorporated in any published dictionary or other printed document
+without the specific permission of the copyright holders.
+
+OTHER RELATED COPYRIGHTS
+
+Copyright over the documents covered by this statement is held by James
+William BREEN, subject to the exceptions outlined below.
+
+The following people have granted permission for material for which they
+hold copyright to be included in the files, and distributed under the
+above conditions, while retaining their copyright over that material:
+
+Jack HALPERN: The SKIP codes and Frequency codes in the KANJIDIC package.
+
+With regard to the SKIP and Frequency codes, Mr. Halpern stated as
+follows:
+
+    "The commercial utilization of the frequency numbers is prohibited
+    without written permission from Jack Halpern. Use by individuals and
+    small groups for reference and research purposes is permitted, on
+    condition that acknowledgement of the source and this notice are
+    included."
+
+    "SKIP is protected by copyright, copyleft and patent laws. The
+    commercial utilization of SKIP in any form is strictly forbidden
+    without the written permission of Jack Halpern, the copyright
+    holder."
+
+Christian WITTERN: The PinYin information in the KANJIDIC file.
+
+Urs APP: The Four Corner codes and the Morohashi information in the
+         KANJIDIC package.
+
+
+
+Radical Lookup
+==============
+
+File Names: RLOOKUP.C, RLOOKUP.H, RADLOOK.C, RADLOOK.H, RLOOKUP.RES
+            (in source code package)
+
+Copyright (C): Derc Yamasaki
+
+
+File Names: RADKANJI.DAT, RADKANJI.IDX, STROKNJI.DAT, STROKNJI.IDX
+
+Copyright (C): Michael Raine
+
+Special thanks to Michael Raine for telling me about the idea and
+donating the kanji files necessary to implement the new lookup method.
+He requests that the data files not be re-distributed for use in any
+commercial product without his express written permission.
+
+
+
+Japanese Format Conversion Routines
+===================================
+
+File Name: JIS.C (in source code package)
+
+Version: 2.3
+Date: August 12, 1992
+Author: Ken R. Lunde, Adobe Systems Incorporated
+ EMAIL: lunde@mv.us.adobe.com
+ MAIL : 1585 Charleston Road, P.O. Box 7900, Mountain View, CA 94039-7900
+Type: A tool for converting the Japanese code of Japanese text files.
+Code: ANSI C (portable)
+
+DISTRIBUTION AND RESTRICTIONS ON USAGE:
+ 1) Please give this source code away to your friends at no charge.
+
+ 2) Please try to compile this source code on various platforms to check
+    for portability, and please report back to me with any results be
+    they good or bad. Suggestions are always welcome.
+
+ 3) Only use this tool on a copy of a file -- do not use an original.
+    This is just common sense.
+
+ 4) This source code or a compiled version may be bundled with
+    commercial software as long as the author is notified beforehand.
+    The author's name should also be mentioned in the credits.
+
+ 5) Feel free to use any of the algorithms for your own work. Many of
+    them are being used in other tools I have written.
+
+ 6) The most current version can be obtained by requesting a copy
+    directly from me.
+
+
+
+Single Line Input Editor (Not used in JWPce)
+========================
+
+File Name: IME.C (in source code package)
+
+Copyright (C): Kevin Ortman
+Date: June 9, 1995
+Author: Kevin Ortman
+ EMAIL: ortman@unomaha.edu
+ MAIL : 13005 Nicholas St, Omaha NE 68154
+Type: A single line edit window to expand upon the JWP input process
+
+ Permission to use, copy, modify, distribute, and sell this software
+ and its documentation for any purpose is hereby granted without fee,
+ provided that all of the following conditions are satisfied:
+
+ 1) The above copyright notices appear in all copies
+ 2) Both those copyright notices and this permission notice appear
+    in supporting documentation
+
+ This software is provided "as is" without express or implied warranty.
+

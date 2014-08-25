@@ -1,0 +1,348 @@
+CLASSICAL -- The Classical Japanese Dictionary
+=======================================
+Copyright (C)  2000, Glenn Rosenthal, all rights reserved.
+
+Classical Japanese/English Dictionary file, coordinated by Glenn Rosenthal. 
+
+
+CURRENT VERSION 
+=======================================
+The version date and sequence number is included  in  the  dictionary  itself under  the  entry  "CLASSICAL".  (Actually it is under the JIS-ASCII code "????".  This keeps it as the first entry 
+when it is sorted.) 
+
+The master copy of CLASSICAL is stored at http://www.physics.ucla.edu/~grosenth/jwpce.html.
+There  are other copies around,  but they may not be as up-to-date. The easy way to check if 
+the version you have is the latest is from the size/date. 
+
+The current version is V00-001.  This is the first version.
+
+I have removed about 400-500 entries from the dictionary.  I am still converting these entries 
+from the original format I was using to the format used here.  Additionally, since the dictionary
+started as a personal dictionary some of these entries contain only special interpritations of 
+words that were used in the context I took them from.  I will finish checking them and add 
+them into the next version fo CLASSICAL.
+
+
+INTRODUCTION
+=======================================
+CLASSICAL is an electronic dictionary for classical Japanese.  The development of 
+CLASSICAL is very much a work in progress.  
+
+The discussion here assumes that your are familiar with classical Japanese, and makes no 
+attempt to introduce the basic concepts of the field.  If you are just learning modern Japanese, 
+it is highly suggested that you forget you saw this.
+
+
+FORMAT
+=======================================
+CLASSICAL is based on modification of the dictionary format developed by Jim Breen for 
+EDICT and ENAMDICT, except dedicated to classical Japanese.
+
+CLASSICAL's format is that of the original "EDICT" format used by MOKE.  It uses EUC 
+coding for kana and kanji.  It is a text file with one entry per line.  The format of the entires is:
+
+　　KANJI [KANA] /English_1/English_2/.../
+
+　　     or
+
+　　KANA /English_1/.../
+
+The English translations are deliberately brief,  as the application  of  the dictionary is 
+expected to be primarily on-line look-ups, etc. 
+
+The following extensions to EDICT format are necessary to work with CLASSICAL:
+
+1.  Japanese text is supported in the meaning field, but only as a modern Japanese equivalent.  
+Such text is set asside with braces {}.  For example, the entry for the 助動詞 べし, contains 
+the entry {べきである}.  This indicates that べきである is a modern Japanese equivalent 
+of the classical べし.  I find that the meanings of the 助動詞 can oftern be better expressed 
+in modern Jpanaese than in English.  A search engine should ignore all values contained in 
+the braces {}.
+
+2.  Numbered entries.  Many of the gramatical points contained in the dictionary contain 
+numerical entries.  These tend to indicate the most common usages of the word first.  This 
+can be seen from the meaning field of べし:
+
+　　/(1) conjecture which contains confidence, it will surely/(2) expectation or anticipation, 
+　　I intend to do... {のつもりである}/(3) nautual outcome or expectation, ...ought to 
+　　occure, ...should happen {はずである}/(4) obligation, must do..., should do..., ought 
+　　to do {べきである}/(5) intensiou, I shall {しよう}/(6) possibility or potential, can do, 
+　　will be able to {できる}/(7) suggestion, persuassion, command, had better do {たほ
+　　がよい}/
+
+3.  Entries for 助動詞 and parts of grammer are prefixed with a grammer marker (ー).
+
+4.  Entries for 助動詞 contain the conjugation pattern, as in this example from べし:
+
+　　[×／ーべく／ーべし／ーべき／ーべれ／×]
+
+5.  Grammer entries contain a usassage indicator.  This indicate the type of word and form
+of conjucation that is required for ussage.  The following example is from the 助動詞 まし 
+and indicate that まし must follow the 未然形 of conjugated words:
+
+　　未然形ーまし
+
+
+CONTENTS
+=======================================
+Words that are still in use in modern Japanese and still retain the same meaning are not
+included in CLASSICAL, so you should still search EDICT for these words.  The 
+exception to this are verbs which are always included in CLASSICAL, so the classical 
+conjugation and spelling can be indicated correctly.  Names are also not inlcuded in 
+CLASSICAL so searching ENAMDICT may also be helpful.  The suggested dictionary 
+search order is: CLASSICAL, EDICT, ENAMDICT.
+
+CLASSICAL is taken from a variety of sources.  These include a summary of several 
+different texts on classical grammer (for the gramatical parts), from reading material that 
+I have been working on, and interpritations from translated materials.  The origin of this 
+dictionary was simply me keeping track of classical Japanese terms that I was 
+encountering in during reading.  Since there is no Classical Japanese -> English 
+dictionary that I am aware of, I started to create one.
+
+
+Understanding the results from CLASSICAL
+=======================================
+With the exception of searching for searching for jodoushi (and other parts of grammar), 
+the results of a CLASSICAL search are basically identical to normal searches, except 
+there are some additional dictionary entry codes:
+
+　　code	　　　Interpretation
+　　------------	　-----------------------
+　　adv-part	　Adverbial particle
+　　case-part	　Case particle
+　　comb-part	　Combination particle
+　　conj-part	　Conjunctive particle
+　　emo-part	　Emotive particle
+　　exc-part	　　Exclamative particle
+　　fin-part	　　Final particle
+　　kamiichi	　Kami-ichi-dan verb (上一段動詞)
+　　kamini	　　Kami-ni-dan verb (上二段動詞)
+　　ku	　　　　Ku-adjective (ク形容詞)
+　　makura	　　Makura kotoba (kind of set phrase used in poetry)
+　　nahen	　　Irregular na-verb (な変動詞)
+　　pre	　　　Prefix
+　　post	　　　Postfix
+　　rahen	　　Irregular ra-verb (ら変動詞)
+　　Sahen	　　Irregular sa-verb (さ変動詞)
+　　set phrase	　A set phrase
+　　shiku	　　　Shiku-adjective (シク形容詞)
+　　shimoichi	　Shimo-ichi-dan verb (下一段動詞)
+　　shimoni	　　Shimo-ni-dan verb (下二段動詞)
+　　yo	　　　　Yo-dan verb (四段動詞)
+
+
+Searching for jodoushi, particles and other pieces of grammar
+=======================================
+The classical Japanese dictionary contains an extensive collection of grammatical 
+entries, as well as complete entries for particles and jodoushi, with conjugations, 
+and usage rules.
+
+Generally, to search for a part of grammar one only has to place a ー character in front 
+of it.  For example, to search for the 助動詞 らし one would search for ーらし.  The 
+results of this search would be:
+
+　　連体形(ら変)ーらし	[×／×／ーらし／ーらし
+　　	／ーらし／×]	supposition for which there is good
+　　	reason, it seems..., it appears that... {らしい}
+　　終止形(＊)ーらし	[×／×／ーらし／ーらし／
+　　	ーらし／×]	supposition for which there is good
+　　	reason, it seems..., it appears that... {らしい} 
+
+This is actually quite a complicated result that indicates many of the characteristics of 
+the classical dictionary. First, we notice that there are two separate entries for the 
+助動詞 らし.  The first entry indicates how らし would be conjugated when following 
+the 連体形 of a ら変 verb.  Similarly, the second entry shows how らし would be 
+conjugated following the 終止形 of any other verb.
+
+If we look at the individual entries above we will notice within the square brackets there 
+are six entries separated by slashes.  These correspond to the conjugations of らし 
+under the six classical bases (未然形, 連体形, 終止形, 連体形, 已然形, and 
+未然形).
+
+The final thing we can see in the entries above is a modern Japanese equivalent 
+contained in curly braces {}.  These are included, because sometimes an actual 
+Japanese equivalent can convey the meaning much better than a description in 
+English.
+
+Searching for particles, prefixes, postfixes, etc. is basically the same.  Prefix what 
+you want to search for with a ー character and search.  For example, searching on 
+ーば will yield the following results:
+
+　　未然形ーば	[ーば]	unfulfilled or hypothetical conditon, 
+　　	if (conj-part)
+　　已然形ーば	[ーば]	causal or temporal relationship, 
+　　	fulfilled conditon, since (conj-part)	 
+
+These are both usages of the particle of the particle ば.
+
+The real power of the system comes when you don't know the exact grammatical 
+from you are looking for.  For example, if you are reading along and come to a に 
+at the end of a word and you don't know what it is, you could search for ーに.  This 
+will give the results:
+
+　　連用形ーに	[ーに]	(1) shows relationship to other words 
+　　	(case-part) {に対した, ために,として...}, (2) functions as 
+　　	an adverb (case-part)
+　　ーに	[ーに]	(1) simular to modern ni (case-part), (2) use in 
+　　	repeting verbs for empheses
+　　名詞ーに	[ーに]	(1) indicates respect (case-part), (2) 
+　　	show resemblence to another thing {のように}
+　　連体形ーに	[ーに]	(1) something is contrairty to what 
+　　	might be expected {のに} (conj-part), (2) indicates reason 
+　　	{ので}, (3) one action procedes another, but containues 
+　　	during the second, (4) supposition {として	も}, (5) 
+　　	indicating at what point an action occures (conj-part)
+　　連用形ーぬ	[ーな／ーに／ーぬ／ーぬる／ーぬ	
+　　	れ／ーね]	(1) completion of an action {した,してし	
+　　	まった}, (2) emphasizes or affirms an action
+　　連体形ーなり	[ーなら／ーなり,ーに／ーなり／	
+　　	ーなる／ーなれ／(ーなれ)]	(1) statement or 
+　　	assertion {である}, (2) existance {にある}	 
+
+From examining this list we can see that に could be a case particle, a conjunctive 
+particle, the 連用形 of the 助動詞 ぬ, or the, the 連用形 of the 助動詞 なり.  It 
+then becomes your job to try to determine which of the meanings is the correct one 
+based on the context.
+
+
+Details on gramatical entries
+=======================================
+This section contains the details of what you can expect to find in each part of the
+gramatical entries with many examples.  Remember that the main word entries in 
+the dictionary are basically similar to entries in EDICT.
+
+Kanji section
+------------------------------------------
+Within the section normally used for kanji you will find the actual gramatical part 
+(possibly in kanji), and ussage information.  Most parts of grammer are always 
+written in kana, but some of the grammer parts do have kanji, so the kanji will be 
+included in this section if it exists, as shown in the following examples, which are 
+both prefixes:
+
+　　ー真ー [ーま] /truth, purity, used to praise the purity or good 
+　　　quality of something (pre)/
+　　名詞ー深ー [ーみ] /sense of loveliness, deepness (pre)/
+
+There can also be word ussage information.  This can be as simple as inciating
+that the word must follow a noun, or indicating that it must follow the 終止形 of a
+上二段動詞.    Here are some examples, with explanations (these are not 
+complete entries but just the ussage part):
+
+　　連体形(ら変,形容詞,助動詞)ーべし
+　　終止形(＊動詞)ーべし
+
+　　　The first line indicates that べし follows the 連体形 of ら変 verbs, 
+　　　adjitives, and jodoushi.  The second line indicates that べし will follow 
+　　　the 終止形 of all other verbs.
+
+　　連体形(ら変)ーらむ
+　　終止形(＊)ーらむ
+
+　　　This indicates thar らむ follows the 連体形 of ら変 verbs, and the 
+　　　終止形 of all others.
+
+Kana section
+------------------------------------------
+Within the kana section, you will find the conjugation of the word according to the 
+six classical bases (未然形, 連体形, 終止形, 連体形, 已然形, and 未然形) 
+separated by slashes (／).  Conjugations that are not allowed are marked by an 
+×.  When more than one possible conjugation exist, they are separated by a 
+comma (,).  Unusual or rare conjucations are containd within parentheses.
+
+　　未然形ーず [(ーな)／ーず(ーに)／ーず／ーむ／ーね／×]
+
+　　　This enry shows the conjugations of ず.  First, the 未然形 is unusuall, but 
+　　　can be conjugated as な.  The 連体形 has two possible conjugations; ず 
+　　　being the common one, and に being a rare alternative.  There are 
+　　　conjucagtions for the 終止形, 連体形, and 已然形, but not for the 
+　　　未然形.
+
+Meaning section
+------------------------------------------
+The meaning section contains only the meanings of the word, and the word codes 
+(above).  For grammatical entries, you will also find examples in modern Japanese 
+included in braces {}.  There will also be numbered entries.  The lower numbers tend 
+to indicate the more common meanings.  Finally, in some cases there will be grammatical 
+notes as shown in the following example:
+
+　　ーこそ [ーこそ] /(1) forms a concessive clause (verb is izenkei, fllowed 
+　　　by the main clause) (ends izenkei) (emo-part)/(2) gives particularly strong 
+　　　emphasis to something/
+
+which indicates that the particle こそ usually indicates that the verb will end in 已然形.
+
+There are also a number of notes attached in the meaning section.  These notes may 
+indicate the origin of the word, the time it came to be used, or any other special 
+characteristics of the word.  All notes will be enclosed in parentheses.
+
+
+Special Entries
+=======================================
+There are a number of special entries in the dictionary.  The most obvious is the version 
+identifier (see above).  There are also a number of makers to seperate out sections of 
+the dictionary.  These are currently used to find and revise entries at the moment.  In the 
+future they will probobly be removed.  
+
+There are also a number of conjugation entries, in case you forget how to conjugate a 
+particular type of verb or adjitive.  These can be found by searching for things such as
+
+　　四段、上一段、上二段、下一段、下二段、か変段、さ変段、
+　　な変段、ら変段、シク形容詞、シク形容詞、なり、or たり
+
+
+COPYRIGHT
+=======================================
+Please do not contribute entries to CLASSICAL which have come directly from 
+copyrightable sources.   It is hard to check these, and you may be jeopardizing 
+CLASSICAL's status.  
+
+
+USAGE
+=======================================
+CLASSICAL can be used, with acknowledgement, for any free software or
+server, or included in file and software distributions at a nominal charge for 
+the distribution medium.  
+
+
+Adding Entries to CLASSICAL
+=======================================
+CLASSICAL was started as a cooperative effort, and hopefully will built upon the 
+contributions of many different people.  If you accumulate dictionary entries in your user 
+dictionary, these entries can be sent to me, and I will add them to CLASSICAL.  This 
+will eventually include them in the dictionary.  The combined contributions of many 
+different users will work to enhance the quality of the dictionary for everyone.
+
+You can send your JWPce user dictionary file me for inclusion in CLASSICAL.  Before 
+sending contributions, please make sure you have the newest version of CLASSICAL
+(http://www.physics.ucla.edu/~grosenth/jwpce.html) so you do not suggest additions 
+that have already been made.
+
+Users intending to make submissions to CLASSICAL should follow the following 
+simple rules (I borrowed most of these suggestions from Jim Breen's EDICT.doc file): 
+
+　＊ All verbs in plain form.  The English must begin with "to ....".  Add verb type 
+　　to all verbs.
+　＊ If you make grammatical entries make sure they are consistent with the rules 
+　　used by CLASSICAL.
+　＊ Indicate prefixes and suffixes by "(pref)" and "(suf)" in the first English entry, 
+　　not by using "-" in the kanji or kana. 
+　＊ Do not add definite or indefinite articles (e.g.  "a", "an", "the", etc) to English 
+　　nouns unless they are necessary to distinguish the word from another usage 
+　　type or homonym.
+　＊ Do not guess the kanji!
+　＊ Do not use the "/", "[" or "]" characters.
+　＊ If you are using a reference in romaji form, make sure you have the correct 
+　　kana for "too/tou" and "zu", where the Hepburn romaji is often ambiguous. 
+　＊ Make sure your kana is correct. Make sure to use   and   correctly.
+　＊ Do not include words formed by common Japanese suffixes, such as "-teki", 
+　　unless they cannot be deduced from the root.
+　＊ Please do not contribute entries to CLASSICAL which have come directly 
+　　from copyrightable sources.   It is hard to check these, and you may be 
+　　jeopardizing CLASSICAL's status.
+
+Glenn Rosenthal
+(grosenthal@physics.ucla.edu)
+
+
+
+

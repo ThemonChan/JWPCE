@@ -1,0 +1,14 @@
+J_PLACES
+========
+
+The "j_places" file is an EDICT-format compilation of Japanese
+place names extracted from the postal code databases published on 
+the Japanese MPT WWW pages. I set the file up some time ago to
+include on my WWWJDIC server, rebuilt the file in January 1999,
+and finally by public demand I have put it on my ftp archive.
+
+The place names are catgorized: pref(ecture)/city/loc(ation), according
+to what is in the database.
+
+Jim Breen
+June 1999

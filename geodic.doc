@@ -1,0 +1,49 @@
+
+G E O D I C
+===========
+
+Dictionary file of geological terms
+
+The GEODIC file is a collection of geological terms in the EDICT format.
+(Please see the EDICT.DOC file for more information about the format 
+and usage.)
+
+The material in the GEODIC file has come from two sources:
+
+(a) a file prepared by Bruce Bain, which he sent to me in mid-1996, and
+which I filed in the wrong directory and overlooked until recently. I'll
+append the .doc file Bruce prepared.
+
+(b) another file of terms entered by Leslie Oberman
+(oberman@tmxmelb.mhs.oz.au). Leslie has been translating a book on
+the geology of Hokkaidou, and compiled the file while undertaking that
+task
+
+Leslie called on me recently with his file to see if it was suitable to
+put out on the Internet. That reminded me of Bruce's file, which I
+eventually found. With Leslie's agreement I have merged the two (they
+complemented nicely). I haven't been able to contact Bruce, so I 
+apologize for releasing this merged edition without his approval.
+
+So here it is. I'm happy to look after amendments.
+
+Jim Breen
+(jwb@dgs.monash.edu.au)
+Digital Systems Dept
+Monash University
+Australia
+
+Appendix
+--------
+
+
+	G E O L O G Y
+
+Here is my list of geology terms in EDICT format which I put together for
+some translation work on concrete materials. It contains about 430 entries.
+Many of the term have been checked against the source: "Doboku Wa-Ei
+Jiten" by Kindai Tosho K.K.
+
+Bruce Bain, Concordia Ltd.
+RN2B-BN@asahi-net.or.jp
+May 1996

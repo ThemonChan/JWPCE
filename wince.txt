@@ -1,0 +1,471 @@
+JWPce version 1.50
+
+Copyright (C) 1997-2004, 2005, glenn rosenthal
+
+JWPce is free software; you can redistribute it and/or modify 
+it under the terms of the GNU General Public License as 
+published by the Free Software Foundation; either version 2 of 
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, 
+but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+GNU General Public License for more details. 
+
+You should have received a copy of the GNU General Public 
+License along with this program; if not, write to the Free 
+Software Foundation, Inc., 59 Temple Place - Suite 330, 
+Boston, MA 02111-1307, USA.
+
+============================================================
+Supplemental Information:  Windows CE version extra information
+
+This file contains additional information that is specific to
+Windows CE versions of JWPce.  You should also read the
+_readme.txt file which contains information about JWPce in
+general
+
+============================================================
+Disclaimers:  The legal stuff, or you get what you pay for.
+
+Because this program is free software, it is distributed in the
+hope that it will be useful, but WITHOUT ANY WARRANTY; without
+even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.  This means that if you lose millions of
+dollars because you used the program, tough.  So there!
+
+============================================================
+Installation Requirements: What do I need to get it running?
+
+Windows CE versions of JWPce are designed to operate on HPCs 
+(Handheld Personal Computers) and PPCs (Palm Personal 
+Computers) running the Windows CE operating system.  The 
+program has been developed and tested under Window CE version 
+2.0.  I have not specifically excluded Windows CE versions 
+earlier than 2.0, but I have not tested the program under any 
+of these versions, and would expect that it will NOT work 
+correctly. 
+
+Every attempt has been made to keep dialog boxes small enough 
+so that 480x240 displays will be acceptable. There are a few 
+dialog boxes that will have to be shifted for people using 
+the smaller display (most notably the Radical Lookup  dialog 
+box, which is clearly 640x240). 
+
+My Windows CE machines are a Velo 500 and an Everex Freestyle, 
+both of which use the MIPS processor. I have extensively 
+tested JWPce using these systems without any problems. I do 
+not have an SH3 machine, so I cannot test JWPce using such a 
+machine.  However, JWPce has been tested by other users on 
+both SH3 and Arm based machines without any problems.
+
+The complete installation of JWPce with dictionaries and 
+lookup tables but no help files takes about 5.1 MB of storage 
+(not counting the storage compression used by Windows CE). 
+Various files can be deleted to save space, if that is 
+necessary (see below). JWPce will run on a machine with 8 MB 
+of RAM (less if some of the files are removed). 
+
+============================================================
+Installation Instructions for HPCs: How to get it working?
+
+Currently there is no installer for JWPce under Windows CE. I 
+will eventually generate one, but this is a low priority. 
+Until then, the following steps can be used to install JWPce 
+on a Windows CE machine:
+
+  1. Obtain the distribution .zip files: One way or another 
+     obtain the distribution .zip files - the number of files 
+     will depend on where you obtain them. 
+
+  2. Make a temporary directory:  Create a temporary directory 
+     on your desktop machine (such as c:\temp-wince).
+
+  3. Decompress the .zip's: Decompress the .zip files into your 
+     temporary directory. Generally it is better first to 
+     decompress any general files and then to decompress files 
+     that are specific to your processor.  At this point you can 
+     delete the .zip files as they are no longer necessary. 
+
+  4. Make an installation directory:  Create a program directory 
+     on your Windows CE machine, e.g. \Program Files\JWPce. 
+
+  5. Copy the files:  Copy the desired files from the temporary 
+     directory on your desktop machine to the installation 
+     directory on your Windows CE machine. You can now delete 
+     the temporary directory (and its contents) on your desktop 
+     machine, as it is no longer necessary. 
+
+  6. Run the Program: Run the executable program "jwpce.exe". 
+     This program will automatically complete the installation, 
+     and prompt you for any information needed, just like the 
+     Windows 95/98/NT version.
+
+--------------------------------------
+Installing Help
+
+Normal Windows CE help is implemented using the Pocket Help 
+program, and help information is stored in a reduced form of 
+HTML format.  Unfortunately, using Pocket Help requires that 
+most of the help files reside in the Windows\System directory.  
+One of the problems with HTML formatted files is that all Japanese 
+text must be stored as small images in separate files1 (in total, 
+there are around 130 files in the help system).
+
+I do not like the idea of dumping 130 or so files into the 
+Windows\System directory, so JWPce implements its help using Pocket 
+Internet Explorer.  This has a number of advantages:  first, this 
+allows the full range of HTML to be used in the help system2;  
+second, this allows me to place the help files in any location.  
+There are also a few disadvantages, such as that Pocket Internet 
+Explorer opens files slower than Pocket Help.  Overall, I believe 
+this is the best solution.
+
+The following steps can be used to install help on a Windows CE 
+system:
+
+  1. Obtain the distribution zip files: One way or another obtain 
+     the distribution .zip files - the number of files will depend 
+     on where you obtain them. 
+
+  2. Make a temporary directory.  Create a temporary directory on 
+     your desktop machine (such as c:\temp-help).
+
+  3. Decompress the .zip files: Decompress the .zip file(s) into 
+     your temporary directory.  At this point you can delete the 
+     .zip files as they are no longer necessary. 
+
+  4. Make an installation directory:  Create a help directory on 
+     your Windows CE machine. The directory must be named help, and 
+     must be a sub-directory of wherever you installed JWPce.  For 
+     example, if you installed JWPce in \Program Files\JWPce you 
+     must install help in the directory \Program Files\JWPce\help.
+
+  5. Copy the files:  Copy the desired files from the temporary 
+     directory on your desktop machine to the help directory on 
+     your Windows CE machine. You can now delete the temporary 
+     directory (and its contents) on your desktop machine as it 
+     is no longer necessary. 
+
+============================================================
+Installation Instructions for PPCs: How to get it working?
+
+Currently there is no installer for JWPce under Windows CE. I will 
+eventually generate one, but this is a low priority. Until then, 
+the following steps can be used to install JWPce on a Windows CE 
+PPC machine.  Due to the absence of any type of file manager on 
+the PPC versions of Windows CE, you will have to attach JWPce to 
+the Start Menu by hand to run the program.  Do not worry, the 
+steps are very straightforward.
+
+  1. Obtain the distribution .zip files: One way or another obtain 
+     the distribution .zip files - the number of files will depend 
+     on where you obtain them.
+
+  2. Make a temporary directory:  Create a temporary directory on 
+     your desktop machine (such as c:\temp-wince).
+
+  3. Decompress the .zip files: Decompress the .zip files into your 
+     temporary directory. Generally it is better first to decompress 
+     any general files and then to decompress files that are specific 
+     to your processor.  At this point you can delete the .zip files, 
+     as they are no longer necessary. 
+
+  4. Make an installation directory:  Create a program directory on 
+     your Windows CE machine, e.g. \Program Files\JWPce. 
+
+  5. Copy the files:  Copy the desired files from the temporary 
+     directory on your desktop machine to the installation directory 
+     on your Windows CE machine. You can now delete the temporary 
+     directory (and its contents) on your desktop machine, as it is 
+     no longer necessary. 
+
+  6. Select the Program:  Now you will need to generate a link in the 
+     start menu so you can execute the program.  Find the file 
+     JWPce.exe on the PPC device (since you just copied the files, I 
+     am assuming that you are exploring your PPC), and click on it once.   
+
+  7. Copy the Program:  Select Copy from the Edit menu on Explorer.
+
+  8. Change Directories:  Change the Explorer directory to 
+     /Windows/Start Menu/Programs.
+
+  9. Make the Shortcut:  Choose Paste Shortcut from the Edit menu on 
+     Explorer.  If you would like a shorter name in your start menu, 
+     you can edit the name from "shortcut to JWPce.exe" to "JWPce", 
+     or whatever you like
+
+  10. Run the Program:  On your PPC machine there should now be a 
+     link to JWPce in the programs menu. Activate this link. The 
+     program will automatically complete the installation, and prompt 
+     you for any necessary information, just like the Windows 
+     95/98/NT/2000 version.
+
+============================================================
+Updating JWPce:
+
+If you are installing an updated version of JWPce, you can 
+either get an updated package or install a complete version of 
+JWPce over your existing version.  
+
+Update packages are smaller and faster to download and install.  
+If you get an update package, please check the instructions, 
+since the update versions now require that you have at lease a 
+certain version of JWPce to update from.  `This was done to 
+keep the size of the update versions small.
+
+Reinstalling JWPce over your existing version has some advantages 
+too.  In particular you will get the newest copy of the main 
+dictionaries.  These are not included in the update packages, 
+because this would defeat the purpose of the updates.
+
+Because there have been internal changes in the versions of 
+JWPce I am now distributing a small program called UPDATE.EXE 
+with each version of JWPce.  This program will check your version 
+of JWPce and update any necessary files to the current version.  
+You run this program by simply double clicking on it.  After you 
+have run UPDATE.EXE you can simply delete the program, as it will 
+no longer be necessary.  You can run UPDATE.EXE as often as you 
+like, it will not hurt any of the files.
+
+--------------------------------------
+Windows CE Updates
+
+I have not generated a version of UPDATE.EXE for each of the 
+Windows CE versions.  I believe that most people who are using the 
+CE versions also have a version on their desktop.  You can simply 
+copy the updated files from your desktop to your CE machine.  Also 
+the next section contains a list of things that have changed from 
+version to version so you can see what UPDATE.EXE would be doing.
+
+--------------------------------------
+Update History
+
+This section contains a history of major file changes in the 
+various versions of JWPce.  If you are updating from an older 
+version of JWPce you can see what files have been modified.
+
+Version 1.33:
+
+Due to changes in the kana->kanji conversion system, the files 
+WNN.DCT and WNN.IDX have been replaced with the files WNN.DAT and 
+WNN.DIX.  Additionally, the format of the user kana->kanji 
+conversion file (USER.CNV) has changed to match the format used by 
+WNN.DAT.  UPDATE.EXE will update the format USER.CNV, as well as 
+offer to delete the obsolete files.
+
+============================================================
+Implementation Decisions: What is different from Windows 95/98/NT/2000
+
+Generally Windows CE versions of JWPce are almost identical to the 
+Windows 95/98/NT/2000 version; however, a number of decisions were 
+made when implementing JWPce on Windows CE platforms: 
+
+  * The BITMAP clipboard format is not supported (section 5.5.3). 
+  * Clipboard formats TEXT and OEMTEXT are not supported (just 
+    UNICODETEXT). These formats are not supported by most other 
+    Windows CE programs. 
+  * Multi-file selects are not supported. Windows CE does not 
+    support this feature. 
+  * Printing is not supported in Windows CE. This may be added 
+    at some later date. 
+  * Some items were removed from the Edit menu, because the menu 
+    was too long for the Windows CE display. The removed items 
+    are Insert page break, and the mode settings. 
+  * Network startup options are not supported in Windows CE. The 
+    user cannot edit the command line arguments that are passed 
+    to a program. 
+  * Some visual changes were made because of the types of buttons 
+    or controls supported by Windows CE. 
+  * Due to the difficulties in determining what tasks are running 
+    on PPCs and in switching between tasks, only one copy of 
+    JWPce can be run at a time on a PPC.  If you attempt to start 
+    another version, the currently running version will be 
+    brought to the foreground.
+
+============================================================
+International Support:
+
+The appearance of JWPce's interface can be changed by the use of 
+a language or localization file (JWPCE_LANG.DLL).  These files can 
+replace virtually all the text strings used by the program, as 
+well as menus and dialog boxes.  This system was designed to allow 
+creation of alternative interface modules in different languages.
+
+If a language support file is available for a language you are 
+interested in, you can simply copy the support file to the same 
+location as JWPCE.EXE.  During startup JWPce will detect the 
+language file and switch interfaces.  There is an internal check to 
+make sure the language support file matches the version of JWPce 
+you are using.
+
+Currently JWPce supports only one interface language at a time.  
+Further the language is set when JWPce starts.  At a later date, 
+support for switching interface languages on the fly may be 
+implemented.
+
+If you are interested in translating JWPce's interface to another 
+language please contact me or obtain the translation kit 
+(jwpcetra.zip).  This kit contains instructions, notes and tools 
+used to generate a translation file.   (Please don't underestimate 
+the amount of effort that this will take, JWPce contains around 
+300 message strings, 50 dialog boxes, a two menus containing 
+nearly 100 items.  Most of these will require translation.  This 
+is not even considering the manual, help, or adjustments 
+necessary for Windows CE PPCs and HPCs.)
+
+============================================================
+Implementation Decisions:  What is different on PPC's from HPC's
+
+1.  Since there is no file management system on the PPC's, a 
+    delete command has been added.  In addition, backup files 
+    are not created by default, since they are difficult to 
+    delete.
+
+2.  Open file dialog on the PPC's does not support multiple 
+    file types, so the default file type has been changed to 
+    JWPce native (.jce).
+
+3.  True Type fonts are not supported on PPC's, thus JWPce 
+    will allow the use of bitmapped fonts.
+
+4.  Remember that the open and close dialog boxes will only 
+    look for files located in subdirectories or the 
+    \My Documents directory.  This limits were supplemental 
+    dictionaries and other things can be located.
+
+5.  Due to screen space limitations, many labels had to be 
+    abbreviated.
+
+6.  Due to screen limitations, some information was dropped 
+    from the Character Information dialog.
+
+7.  Because determining which programs are running, and 
+    changing the active program is difficult JWPce will only 
+    allow one version of the program to run.  If you attempt 
+    to start a second version, the current version will simply 
+    be brought to the foreground.
+
+8.  I did not adhere to Microsoft's nonsense idea that PPC 
+    programs not allow the user to exit.  JWPce has a close 
+    box and an exit item on the menu.
+
+============================================================
+Files: What should be there, and what may be there.
+
+Exactly what files you get with JWPce depends on who packaged
+the files.  I distribute the program in a specific way, but
+since it is freeware, the copy you get may not be packaged by
+me.  The following section describes what files should be there,
+what files may be there, and what they are used for.  Any other
+files, you can probably delete if you want to.
+
+Additionally, you can save space on a Windows CE machine by
+selectively not installing all of the files.
+
+JWPce minimum installation includes the following files:
+
+   jwpce.exe    -- JWPce executable (this is the program).
+                   REQUIRED FILE
+   changes.txt  -- Changes for this version.
+                   OPTIONAL -- If  not installed you cannot
+                               view the changes in the program
+                               from your Windows CE machine.
+   _cpright.txt -- Copyright notice.
+                   OPTIONAL -- Not necessary for JWPce to run.
+   _readme.txt  -- Looks like you found this one.
+                   OPTIONAL -- Not necessary for JWPce to run.
+   edict        -- Jim Breen's Japanese-English dictionary
+                   OPTIONAL -- If not installed, you will not
+                               have access to the Japanese <-->
+                               English dictionary.
+   edict.jdx    -- Index file for edict
+                   OPTIONAL -- Required if you include EDICT
+   gnugpl.txt   -- GNU public license.
+                   OPTINAL -- Not necessary for JWPce to run.
+   k16x16.f00   -- 16x16 bitmapped kanji font.
+                   REQUIRED FILE
+   kanjinfo.dat -- Kanji information database.**
+                   OPTIONAL -- If not installed the Character
+                               Information Dialog box will not
+                               function, and some features in
+                               the Radical Lookup Dialog will
+                               be disabled.
+   radical.dat  -- Radical lookup data file.
+                   OPTIONAL -- If not installed the Radical
+                               Lookup Dialog box will not be
+                               able to lookup kanji by radical.
+   stroke.dat   -- Radical lookup stroke data file.*
+                   OPTIONAL -- If not installed the Radical
+                               Lookup Dialog box will not be
+                               able to lookup kanji by stroke
+                               count only.
+   wince.txt    -- Additional Windows CE information
+                   OPTIONAL -- Not necessary for JWPce to run.
+   wnn.dat      -- Kana-to-kanji conversion dictionary
+                   REQUIRED FILE
+   wnn.dix      -- Index to wnn.dat.
+                   REQUIRED FILE
+
+     *These files are slated to be replaced in a later version of
+      JWPce.  The new versions will have added functionally or be
+      significantly smaller, or both.
+
+    **JWPce for Windows CE is distributed with a smaller version 
+      of kanjinfo.dat that does not contain the nanori, or pin 
+      yin data.  You can obtain the full version kanjiifo.dat 
+      from the web site if you wish to have the additional data.
+ 
+JWPce full installation files: (these are all technically optional files).
+
+    classical     -- Classical Japanese dictionary.
+    classical.euc -- Documentation for CLASSICAL.
+    enamdic       -- Japanese name dictionary.
+    enamdic.jdx   -- Index file for Japanese name dictionary.
+    jwpce.doc	-- Documentation (in Word 97 format).
+    k24x24.f00    -- 24x24 bitmapped kanji font (if you have a good
+                     printer you can delete this one).
+    K48x48.f00    -- 48x48 bitmapped kanji font.
+
+Files that may be in your installation:  (these are files generated by
+JWPce, and thus may be included with the files you receive):
+
+   colkanji.lst   -- Kanji list used by the color-kanji feature.
+   jwpce.cfg      -- JWPce configuration file, this will be generated
+                     when you run JWPce.
+   jwpce.dic      -- JWPce dictionary configuration file.  This file
+                     contains information about supplemental dictionaries
+                     you have installed.
+   jwpce_lang.dll -- Localization (language support) file, causes 
+                     JWPce to change the system interface to 
+                     another language.
+   user.cnv       -- User kana->kanji conversion.  This is your own
+                     conversion dictionary.
+   user.dct       -- User dictionary file.
+   user.sel       -- Holds user selections for kana->kanji conversions.
+
+============================================================
+Obsolete Files:  Files that are no longer required
+
+These files have been replaced with updated files, and thus
+are no longer necessary.
+
+Files made obsolete in version 1.33:
+
+  wnn.dct - replaced with wnn.dat
+  wnn.idx - replaced with wnn.dix
+
+============================================================
+Older Windows CE Versions:  What to do if you have an older machine.
+
+If you get an error starting JWPce on older versions of Windows 
+CE, you will need to use the program version designed for older
+versions of the operating system.  This version of JWPce uses 
+fixed file locations, since early versions of Windows CE did not
+support variable file locations.
+
+
+
+
+
+

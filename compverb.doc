@@ -1,0 +1,31 @@
+COMPVERB
+========
+
+COMPVERB is a list of Japanese compound verbs, and is based on the 
+excellent book "Handbook of Japanese Compound Verbs" by Yoshiko
+Tagashira and Jean Hoff (Hokuseido Press, 1986). The file could be viewed
+as an electronic companion to the book as it is based on the 1100+ verbs
+listed as an appendix in the book, and includes the numbers from the book
+to enable cross-referencing.
+
+Each line is in "EDICT" format (qv) and consists of the verb, its reading,
+and its English translation. At the end is the verb's number in the
+Tagashira/Hoff book (1-1157). Where the verb is one of the 200 expanded
+upon in the book, this is shown as a second part to the number.
+
+Thanks to Charles Eicher (ceicher@inav.net) who suggested compiling the
+glossary, and to the good people in the hon'yaku mailing list who helped
+fill in the meanings of the last few elusive verbs.
+
+If you're curious as to how the list was done, I scanned in the romaji
+list from the back of the book, converted it (automatically) to kana and
+did a programmed match against the EDICT file, plus a few other files in
+my possession. Then I hand-edited the result, filling in the gaps as I
+went.
+
+Don't bother merging this file with the EDICT file. As of the latest
+version of EDICT, they are all there.
+
+Jim Breen
+October 1997
+jwb@dgs.monash.edu.au
